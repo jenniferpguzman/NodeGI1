@@ -1,5 +1,6 @@
 body{
-    color: #333333;
+    color: #1f456e;
+    background-color: #cccbe7;
     font-family:arial;
     max-width:650px;
     margin: 0 auto;
@@ -15,7 +16,7 @@ body{
 }
 
 footer{
-    color:#888888;
+    color:#1f456e;
     border-top:1px solid #eeeeee ;
     margin-top:16px;
     padding:16px 0;
@@ -32,7 +33,7 @@ h1{
 }
 
 header a{
-    color: #888888;
+    color: #1f456e;
     margin-right:16px;
     text-decoration: none;
 }
@@ -40,7 +41,13 @@ header a{
 .portrait{
     width:250px;
 }
+input{
+    color:#1f456e;
+    background-color: #b7c0df;
+    border-radius: 2px;
+}
 
 #temperature{
-    color:red;
+    background-color: #b7c0df;
+    color:#1f456e;
 }
