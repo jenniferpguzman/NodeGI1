@@ -28,6 +28,8 @@ header{
 }
 
 h1{
+    display:flex;
+    justify-content: center;
     font-size:64px;
     margin-bottom:16px;
 }
@@ -41,13 +43,26 @@ header a{
 .portrait{
     width:250px;
 }
+p{
+    display:flex;
+    justify-content: center;
+}
+
+form{
+display: flex;
+justify-content: center;
+gap:10px;
+}
+
 input{
     color:#1f456e;
     background-color: #b7c0df;
     border-radius: 2px;
+    height: 25px;
 }
 
 #temperature{
     background-color: #b7c0df;
     color:#1f456e;
+    height: 30px;
 }
